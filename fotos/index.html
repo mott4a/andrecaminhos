@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>André Caminhos</title>
+    <script src="fotos.js"></script>
+    <link rel="stylesheet" href="..\src\css\reset.css">
+    <link rel="stylesheet" href="..\src\css\index.css">
+    <link rel="stylesheet" href="..\src\css\fotos.css">
+    <link rel="stylesheet" href="..\src\css\responsividade.css">
+    <script src="https://kit.fontawesome.com/35e173203f.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Chelsea+Market&family=Roboto:100,400,500,900&display=swap" rel="stylesheet"> 
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
+</head>
+<body onload="">
+  <script src="fotos.js"></script>
+    <a href="../fotos.html">
+        <h1>
+            VOLTAR
+        </h1>
+    </a>
+    <div class="slide-wrapper">
+          <div class="fotos">
+            <a class="prev" onclick="voltarFoto();">&#10094;</a>
+            <a class="next" onclick="proximaFoto();">&#10095;</a> 
+            <img style="width: 100%;height: auto;" id="image" src="../src/img/slides/photos/1.jpg" />
+            <label id="numeroFoto"></label>  
+          </div>       
+    </div>
+<script src="../src/js/fotos.js"></script>   
+</body>
+</html>

@@ -1,0 +1,117 @@
+* {box-sizing:border-box}
+
+
+a{
+  color:black;
+  text-decoration: none;
+}
+
+.menu {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 800;
+  font-size: 20px;
+  position: fixed;
+  background: #fff;
+  height: 6vh;
+  bottom: 0;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  z-index: 1;
+}
+
+
+li{
+  display: inline;
+  padding-left: 5px;
+  margin-left: 10px;
+}
+
+.menuselected{
+  color:#41b8ff;
+}
+
+.title{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: justify;
+  flex-direction: column;
+  padding: 5px;
+  margin-bottom: 1vw;
+  margin-top: 2vw;
+}
+
+
+.title img {
+  height: auto;
+  width: 250px;
+  border-radius: 50%;
+}
+
+.title h2 {
+  margin-top: 10px;
+  font-weight: 900;
+  font-size: 30px;
+  color:white;
+  font-family: 'Chelsea Market', cursive;
+}
+
+
+.title p {
+  margin-top: 5px;
+  font-weight: 600;
+  font-size: 16px;
+  color:white;
+  font-family: 'Pangolin', cursive;
+  width: 50%;
+}
+
+h1{
+  font-family: 'Chelsea Market', cursive;
+  font-weight: bold;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex: 1;
+  text-align: center;
+  justify-content: center;
+  justify-self: center;
+  align-items: center;
+  font-size: 50px;
+  color: white;
+  margin-top: 50px;
+}
+
+.fotos {
+  max-width: 800px;
+  max-height: 1600px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
